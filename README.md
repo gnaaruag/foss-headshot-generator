@@ -1,4 +1,4 @@
-### foss-headshot-generator
+## foss-headshot-generator
 
 This repo lets you create a ai headshot and other prompt to image generations based on a custom trained lora
 
@@ -17,3 +17,13 @@ This is intended as a self hosted free and open source "professional headshot ge
 
 
 Make sure that the input images you are adding are very high quality and show your face in all the good angles. This is the most important step in generating a good lora of yourself
+
+### Examples
+
+A generated headshot of Podcaster Joe Rogan
+
+![image](https://github.com/user-attachments/assets/f0934bea-c4e5-4ed3-a703-e4245bc9ba8d)
+
+A generated headshot of Football coach Jose Mourinho
+
+![image](https://github.com/user-attachments/assets/4bf854e7-06d9-493b-a81e-fc74b9b77822)
