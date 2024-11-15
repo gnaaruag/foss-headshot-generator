@@ -9,11 +9,11 @@ This is intended as a self hosted free and open source "professional headshot ge
 #### Steps to follow to run successfully
 
 1. Install dependencies `pip install -r requirements.txt`
-2. Go follow all the instructions given in `SETUP.md`
+2. Follow all the instructions given in `SETUP.md`
 3. Run the training file `train.py`
 4. Go to [https://replicate.com/trainings](https://replicate.com/trainings) and check the status of your training
-5. After training is complete click `run trained model` page on replicate and copy the model_name/version
-6. Add the model name and version in the `.env` and then run the `generate.py` script
+5. After training is complete click `run trained model` page on replicate and copy the `user/model_name:version`
+6. Add the `user/model_name:version` to the `gen_mod_ver` parameter in the `.env` and then run the `generate.py` script
 
 
 Make sure that the input images you are adding are very high quality and show your face in all the good angles. This is the most important step in generating a good lora of yourself

@@ -9,9 +9,13 @@ and then create a model with whatever hardware you want and `Finetuned image mod
 
 4. Now that you have everything you need you can make a `.env` file based on the `.env.example` file. 
 
-5. Get about 15-20 high resolution images of your face and put them in a folder.
+5. Get about 15-20 high resolution images of your face from different angles and put them in a folder.
 
-6. Enter into that folder and type the following into the commandline `zip -r foldername.zip` .
+6. Enter _into_ that folder and type the following into the commandline `zip -r foldername.zip . `.
 
 7. Make sure to add this `.zip` into the working directory.
+
+8. At this stage you should have three of the four fields in the `.env` ready. i.e. `replicate_model_name`, `input_images` and `gen_mod_ver`.
+
+9. The `gen_mod_ver` parameter will be available once the model is trained.
 
